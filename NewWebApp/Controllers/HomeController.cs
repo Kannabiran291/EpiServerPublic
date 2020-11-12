@@ -17,7 +17,7 @@ namespace NewWebApp.Controllers
         {
             ViewBag.Message = "Your application description page.";
             //Test
-            return View()
+            return View();
         }
 
         public ActionResult Contact()
